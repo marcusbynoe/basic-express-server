@@ -10,34 +10,30 @@ Dynamic API Phase 1: Build your core, standards compliant Express server
 
 ### Links and Resources
 
-- [GitHub Actions ci/cd](https://github.com/rkgallaway/server-deployment-practice-d51/actions) 
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+ ![GitHub Actions ci/cd](https://github.com/marcusbynoe/basic-express-server/actions/new)
 
 ### Setup
 
 #### `.env` requirements (where applicable)
 
-for now I have none and do not require one
-
+- PORT = 3001
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. `npm start`
+- nodemon
 
 #### How to use your library (where applicable)
 
 #### Features / Routes
 
-- Feature One: Details of feature
-- GET : `/hello` - specific route to hit
+- Feature One:
+
 
 #### Tests
 
 - How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+  - npm test
 
 #### UML
 
-Link to an image of the UML for your application and response to events
+![UML Image](/assets/Express.png)
